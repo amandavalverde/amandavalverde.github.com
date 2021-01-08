@@ -22,7 +22,10 @@ main {
     flex-wrap: wrap;
     /* align-content: center; */
     justify-content: center;
-    gap: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    gap: 30px 0px;
 }
 
 .column1 {
@@ -79,6 +82,7 @@ ul, li {
 
 footer {
     text-align: center;
+    padding: 25px;
 }
 
 @media (max-width: 800px) {
@@ -90,7 +94,20 @@ footer {
     .row {
         align-content: center;
         flex-direction: column;
+        border: none;
         padding-bottom: 50px;
+    }
+
+    .column1 {
+        padding: 0px;
+    }
+    
+    .column2 {
+        padding: 0px;
+    }
+    
+    .column3 {
+        padding: 0px;
     }
 
     h1 {
@@ -103,6 +120,8 @@ footer {
         justify-content: center;
         align-content: center;
     }
+
+
   }
   
   
