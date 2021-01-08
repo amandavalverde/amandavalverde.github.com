@@ -84,6 +84,7 @@ footer {
 @media (max-width: 800px) {
     body {
         padding: 0;
+        margin: auto;
     }
     
     .row {
@@ -93,6 +94,7 @@ footer {
     }
 
     h1 {
+        font-size: 2em;
         line-height: normal;
     }
   }
