@@ -82,6 +82,10 @@ footer {
 }
 
 @media (max-width: 800px) {
+    body {
+        padding: 0;
+    }
+    
     .row {
         align-content: center;
         flex-direction: column;
