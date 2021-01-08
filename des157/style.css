@@ -97,6 +97,14 @@ footer {
         font-size: 2em;
         line-height: normal;
     }
+
+    ul, li {
+        list-style-type: none;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
   }
   
   
