@@ -1,5 +1,11 @@
 h1 {
     font-family: 'Playfair Display SC', serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
 }
 
 ul {
