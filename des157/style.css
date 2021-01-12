@@ -13,8 +13,8 @@ header {
 }
 
 main {
-    max-width: 800px;
-    max-height: 250px;
+    max-width: 1200px;
+    min-width: 800px;
     align-self: center;
 }
 
