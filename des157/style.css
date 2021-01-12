@@ -33,6 +33,9 @@ main {
 
 .column1 .column2 .column3 {
     padding: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 }
 
 h1 {
