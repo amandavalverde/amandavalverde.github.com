@@ -84,7 +84,6 @@ ul, li {
 }
 
 footer {
-    align-self: center;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
