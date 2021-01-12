@@ -92,10 +92,6 @@ footer {
     padding: 25px;
 }
 
-.email .valid html .validcss {
-    gap: 15px;
-}
-
 @media (max-width: 800px) {
     body {
         padding: 0;
