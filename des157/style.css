@@ -84,7 +84,7 @@ ul, li {
 }
 
 footer {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     text-align: center;
