@@ -1,17 +1,101 @@
 body {
-    /* background-image: url("https://live.staticflickr.com/127/406815094_bcf768af74_h.jpg"); */
-    background-color: rgb(154, 213, 221);
+    max-width: 1200px;
+    min-width: 800px;
+    background-color: rgb(143, 148, 202);
     color: #ffe5d9;
-    padding: 100px;
+    margin: auto;
    }
 
 header {
     text-align: center;
 }
 
-.banner {
-
+#banner {
+    max-width: 800px;
+    max-height: 250px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
+
+#banner > p {
+    padding: 25px;
+    font-size: 10pt;
+    color: white;
+    opacity: 0.7;
+    animation-duration: 7s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+#banner > p:hover {
+        animation: fadeOut ease 3s;
+        -webkit-animation: fadeOut ease 3s;
+        -moz-animation: fadeOut ease 3s;
+        -o-animation: fadeOut ease 3s;
+        -ms-animation: fadeOut ease 3s;
+      }
+
+      @keyframes fadeOut {
+        0% {
+          opacity:1;
+        }
+        100% {
+          opacity:0;
+        }
+      }
+      
+      @-moz-keyframes fadeOut {
+        0% {
+          opacity:1;
+        }
+        100% {
+          opacity:0;
+        }
+      }
+      
+      @-webkit-keyframes fadeOut {
+        0% {
+          opacity:1;
+        }
+        100% {
+          opacity:0;
+        }
+      }
+      
+      @-o-keyframes fadeOut {
+        0% {
+          opacity:1;
+        }
+        100% {
+          opacity:0;
+        }
+      }
+      
+      @-ms-keyframes fadeOut {
+        0% {
+          opacity:1;
+        }
+        100% {
+          opacity:0;
+      }
+}
+
+
 
 main {
     /* text-align: center; */
@@ -22,7 +106,7 @@ main {
     flex-wrap: wrap;
     /* align-content: center; */
     justify-content: center;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 .column1 {
@@ -78,7 +162,12 @@ ul, li {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer > a {
+    padding: 100px;
 }
 
 @media (max-width: 800px) {
