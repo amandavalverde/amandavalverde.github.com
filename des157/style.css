@@ -21,7 +21,6 @@ header {
 #banner > p {
     position: absolute;
     top: 0;
-    /* left: 120%; */
     width: 800px;
     padding-top: 25px;
     font-size: 10pt;
@@ -34,12 +33,12 @@ header {
 
   @keyframes slidein {
     from {
-      left: 120%;
+      left: 100%;
       width: 300%;
     }
   
     to {
-      left: calc(50%-425px);
+      left: 0%
       width: 100%;
     }
   }
@@ -98,6 +97,8 @@ header {
 }
 
 main {
+    font-size: 12pt;
+    padding-top: 0;
 }
 
 .row {
@@ -136,24 +137,20 @@ a {
     font-weight: 200;
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+a:hover, a:visited:hover {
     color: slategrey;
-}
-
-a:visited {
-    text-decoration: none;
-    color: white;
 }
 
 ul, li {
     list-style-type: none;
     justify-content: left;
     align-content: left;
+    line-height: 20px;
     margin: 0;
     padding: 0;
 }
@@ -161,6 +158,7 @@ ul, li {
 footer {
     width: 300px;
     margin: auto;
+    padding-bottom: 25px;
 }
 
 footer > a {
