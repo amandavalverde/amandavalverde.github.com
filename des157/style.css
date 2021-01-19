@@ -4,6 +4,8 @@ body {
     background-color: rgb(143, 148, 202);
     color: #ffe5d9;
     margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
    }
 
 header {
@@ -130,6 +132,11 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 a {
