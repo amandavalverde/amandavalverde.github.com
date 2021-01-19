@@ -22,7 +22,7 @@
 
     
         <main>
-            <div class="row">
+            <div id="row" class="row">
                 <div class="column1">
                     <article>
                         <h2>Criteria</h2>
@@ -47,6 +47,8 @@
     </footer>
 
     <script>
+        //This set of functions generates a prompt for the user's name and uses the console to greet them and ask if they plan on a career in a random field of design. It will also add a paragraph to the Criteria portion of the page.
+
         var yourName = prompt(`Welcome to my DOM Experimentation page. Be sure to check the console after the prompt. What is your name?`, ``);
         var careers = ["Graphic Design", "Web Development", "Fashion Design", "UX/UI", "Industrial Design", "Exhibition Design", "Animation"];
 
@@ -58,6 +60,9 @@
         }
         else{
             greeting = `Hello ${name}, I'm so glad you're here!`;
+            var para = document.createElement("p");
+            para.innerHTML = (`${name}, I hope the criteria I've listed above will be helpful in illustrating some of the aspects of JavaScript that I have utilized for this experiment.`);
+            document.getElementById("row").appendChild(para);
         }
 
             return greeting;
@@ -68,11 +73,16 @@
         }
 
         function profile(name, careers){
+            if(name == null || name == ``){
+            console.log(hello(name));
+            }
+
+            else{
             console.log(hello(name));
             var randomJob = careers[randomInt(0, careers.length-1)];
             console.log(`${name}, do you plan on a career in ${randomJob}?`);
         }
-
+    }
         profile(yourName, careers);
     </script>
 </body>

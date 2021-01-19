@@ -164,6 +164,10 @@ ul, li {
     padding: 0;
 }
 
+p {
+  width: 800px;
+}
+
 footer {
     width: 300px;
     margin: auto;
