@@ -2,7 +2,7 @@ body {
     max-width: 1200px;
     min-width: 800px;
     background-color: rgb(143, 148, 202);
-    color: #ffe5d9;
+    color: white;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -132,11 +132,13 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    color: #ffe5d9;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+  color: #ffe5d9;
 }
 
 a {
