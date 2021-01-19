@@ -44,5 +44,35 @@
             <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
         </small>
     </footer>
+
+    <script>
+        var yourName = prompt(`Welcome to my DOM Experimentation page. Be sure to check the console after the prompt. What is your name?`, ``);
+        var careers = ["Graphic Design", "Web Development", "Fashion Design", "UX/UI", "Industrial Design", "Exhibition Design", "Animation"];
+
+        function hello(name){
+            var greeting;
+
+        if(name == null || name == ``){
+            greeting = `Please refresh and enter your name in the prompt; your information will never be shared with third parties.`;
+        }
+        else{
+            greeting = `Hello ${name}, I'm so glad you're here!`;
+        }
+
+            return greeting;
+        }
+
+        function randomInt(min, max){
+            return Math.floor((max - min + 1) * Math.random()) + min;
+        }
+
+        function profile(name, careers){
+            console.log(hello(name));
+            var randomJob = careers[randomInt(0, careers.length-1)];
+            console.log(`${name}, do you plan on a career in ${randomJob}?`);
+        }
+
+        profile(yourName, careers);
+    </script>
 </body>
 </html>
