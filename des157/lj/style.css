@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://live.staticflickr.com/227/515711581_224f5de4b1_h.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    margin-left: -45%;
+    padding-top: 50px;
+}
+
+div {
+    margin: auto;
+    width: 650px;
+    background-color: white;
+    opacity: 0.7;
+
+}
+
+header {
+    margin: auto;
+    width: 350px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    text-align: center;
+    line-height: 90px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    /* font-style: italic; */
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 12px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+article {
+    margin: auto;
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+p {
+    line-height: 20px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    color: slategrey;
+}
+
+footer {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+footer > a {
+    display: block;
+}
+
+small {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
