@@ -4,8 +4,8 @@ body {
     background-size: cover;
     background-position: center;
     color: black;
-    padding-top: 50px;
-    padding-left: 25px;
+    /* padding-top: 50px; */
+    /* padding-left: 25px; */
 }
 
 #page {
@@ -17,8 +17,7 @@ body {
 #posts {
     margin: auto;
     width: 650px;
-    background-color: white;
-    opacity: 0.7;
+    background-color: rgba(255, 255, 255, .75);
     align-items: flex-start;
 
 }
@@ -26,7 +25,7 @@ body {
 header {
     margin: auto;
     width: 350px;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 }
 
 h1 {
@@ -36,19 +35,19 @@ h1 {
     text-align: center;
     line-height: 90px;
     margin-bottom: 10px;
-    margin-top: 10px;
-    color: white;
+    margin-top: 15px;
+    opacity: 0.7;
+    /* color: white; */
     
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    /* font-style: italic; */
     font-size: 1.75em;
     text-align: center;
     line-height: 12px;
-    color: white;
+    /* color: white; */
 }
 
 h3 {
@@ -63,7 +62,7 @@ article {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding-bottom: 25px;
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 
 p {
