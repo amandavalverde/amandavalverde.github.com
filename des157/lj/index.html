@@ -21,7 +21,16 @@
 
         <article>
             <h3>26 January 2021</h3>
-            <p>Naema Baskanderi's article from <a href="https://uxplanet.org">UX Planet</a>UX Planet entitled <a href="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c">"Best Practices for Modals / Overlays / Dialog Windows"</a> </p>
+            <p>Naema Baskanderi's article from <a href="https://uxplanet.org">UX Planet</a> entitled <a href="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c">"Best Practices for Modals / Overlays / Dialog Windows"</a> illustrates how overlays can be implemented in effective UI design. Unfortunately, overlays are often overutilized, prompting users to instinctively and automatically close them from the onset; Baskanderi likens them to the universally-reviled pop-up windows of internet past.</p>
+            <p>Overlays, also referred to as modals or dialog windows, are suggested for grabbing the user’s attention, obtaining user input (e.g., sign up or login), and showing additional information (both in and out of context). The anatomy of an overlay should also be carefully crafted. Elements such as an escape hatch (cancel, close, click outside window, escape key), descriptive title, and button labels with actionable, understandable names should enhance usability with adequate mapping and discernable affordances. Baskanderi encourages designers to place modals toward the upper portion of the page, but cautions against making them larger than 50% of the screen in order to preserve context. The lightbox effect, which I have been interested in using in future projects for the course, is also useful for drawing focus to the overlay and indicating that the user cannot interact with the parent page. Finally, the author urges us to make dialog windows user-initiated to avoid having them dismissed rapidly as an uninvited pop-up.</p>
+            <p>Modals are discouraged for use on mobile devices as they can often be too large or to small when translated for smaller screens. There are also some key practices that will make using overlays easier and more intuitive for users with accessibility concerns:</p>
+            <ul>
+                <li>The element which triggers the dialog must be keyboard accessible</li>
+                <li>Once the focus is moved into the dialog, it should be “trapped” inside it until the dialog is closed.</li>
+                <li>Each overlay window must have a keyboard accessible control to close that window.</li>
+            </ul>
+            <p>Baskanderi also briefly mentions ARIA, <q cite="https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c">Accessible Rich Internet Applications (ARIA) defines ways to make Web content and Web applications more accessible.</q> For more information you can watch <a href="https://www.youtube.com/watch?v=0hqhAIjE_8I">ARIA HTML Tutorial - What is ARIA & Why it's Important to Use!</a> on YouTube.</p>
+            
         </article>
         
             <article>
