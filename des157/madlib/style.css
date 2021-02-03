@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(138, 30, 30);
+    background-image: url("/images/ron.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 0px;
+}
+
+div {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+    line-height: 28px;
+    width: 800px;
+/*     opacity: 0.0; */
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    }
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+
+form {
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+input {
+    display: block;
+}
+
+input[type=text] {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    background-color: rgb(138, 30, 30);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+  }
+
+  input[type=text]:focus {
+    outline: none;
+  }
+
+  ::placeholder {
+    color: white;
+    font-size: 1em;
+  }
+
+  input[type=submit] {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(138, 30, 30);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+input[type=submit]:focus {
+    outline: none;
+  }
+
+article {
+    float: right;
+}
+
+footer {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+small {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+
+}
+
+small > a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+small > a:hover {
+    text-decoration: none;
+    color:slategray;
+}
