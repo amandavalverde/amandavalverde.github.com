@@ -1,5 +1,6 @@
 (function(){
     'use strict';
+    console.log("reading js");
 
     var quotes = ["DEAR FROZEN YOGURT, YOU ARE THE CELERY OF DESSERTS. BE ICE CREAM OR BE NOTHING. ZERO STARS.",
                 "THERE’S ONLY ONE THING I HATE MORE THAN LYING: SKIM MILK. WHICH IS WATER THAT IS LYING ABOUT BEING MILK.",
@@ -29,13 +30,17 @@ function newQuote(){
         const noun2 = document.querySelector('#noun2').value;
         const adj = document.querySelector('#adj').value;
         const verb = document.querySelector('#verb').value;
+        const noun3 = document.querySelector('#noun3').value;
+        const finalText = document.querySelector('#madlib');
         let myText;
 
-        if(noun1 && noun2 && adj && verb){
-        myText = `Here are the words: ${noun1}, ${noun2}, ${adj}, and ${verb}`;
+        if(noun1 && noun2 && adj && verb && noun3){
+        myText = `"I'd like to order a ${noun1} with a side of ${noun2}, extra ${adj}, and ${verb} everything with a generous helping of ${noun3}, please and thank you."`;
+        myForm.parentNode.replaceChild(finalText,myForm);
         }
         else {
             myText = "MAKE THE WORDS HAPPEN!";
+            myForm.parentNode.replaceChild(finalText,myForm);
         }
 
         madlib.innerHTML = myText;
