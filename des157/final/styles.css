@@ -1,15 +1,16 @@
 body {
     max-width: 1200px;
     min-width: 800px;
-    background-color: rgb(143, 148, 202);
+    background-color: rgb(81, 84, 116);
     color: white;
     margin: auto;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
    }
 
 header {
     text-align: center;
+    padding-top: 50px;
 }
 
 main {
@@ -18,7 +19,7 @@ main {
 
 .content {
     margin: 0 auto;
-    width: 700px;
+    width: 600px;
 }
 
 h1 {
@@ -31,24 +32,24 @@ h1 {
 
 h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: #ffe5d9;
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  color: #ffe5d9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #ffe5d9;
 }
 
 article > a {
     font-size: 16pt;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 a {
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 a:link, a:visited {
@@ -64,14 +65,14 @@ ul, li {
     list-style-type: none;
     justify-content: left;
     align-content: left;
-    line-height: 20px;
+    line-height: 25px;
     margin: 0;
     padding: 0;
 }
 
-/* p {
-  width: 700px;
-} */
+p {
+  line-height: 20px;
+}
 
 footer {
     width: 300px;
