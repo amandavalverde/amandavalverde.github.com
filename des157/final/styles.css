@@ -14,13 +14,11 @@ header {
 
 main {
     font-size: 12pt;
-    padding-top: 0;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.content {
+    margin: 0 auto;
+    width: 700px;
 }
 
 h1 {
@@ -43,9 +41,9 @@ h3 {
   color: #ffe5d9;
 }
 
-article > a{
+article > a {
     font-size: 16pt;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 a {
@@ -71,9 +69,9 @@ ul, li {
     padding: 0;
 }
 
-p {
-  width: 800px;
-}
+/* p {
+  width: 700px;
+} */
 
 footer {
     width: 300px;
@@ -89,15 +87,3 @@ small {
     display: flex;
     justify-content: space-between;
 }
-
-@media (max-width: 800px) {
-    .row {
-        align-content: center;
-        flex-direction: column;
-        padding-bottom: 50px;
-    }
-
-    h1 {
-        line-height: normal;
-    }
-  }
