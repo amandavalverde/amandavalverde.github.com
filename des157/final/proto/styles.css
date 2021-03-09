@@ -54,3 +54,11 @@ body {
     cursor: pointer;
     outline: none;
 }
+
+#two {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 300px;
+    transform: rotate(10deg);
+}
