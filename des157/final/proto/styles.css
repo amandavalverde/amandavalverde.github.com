@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://amandavalverde.github.io/des157/final/proto/images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.overlay article {
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 20px;
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: showing;
+    opacity: 1;
+}
+
+.corner {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    border:none;
+    background-color: transparent;
+    color:tomato;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    outline: none;
+}
