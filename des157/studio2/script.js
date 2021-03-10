@@ -2,7 +2,7 @@
 
     'use strict';
 
-    function myFunction() {
+    /* function myFunction() {
         let txt;
         let person = prompt("Please enter your name:", "Tester Name");
         if (person == null || person == "" || person == "Tester Name") {
@@ -13,7 +13,7 @@
         document.getElementById("usertest").innerHTML = txt;
       }
 
-    myFunction();
+    myFunction(); */
 
     const openBtns = document.querySelectorAll('.open');
     const closeBtns = document.querySelectorAll('.close');
