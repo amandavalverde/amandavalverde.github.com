@@ -32,9 +32,9 @@ h1 {
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    padding: 20px;
+    padding: 50px;
     width: 50vw;
-    height: 50vh;
+    height: 80vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,6 +42,12 @@ h1 {
     overflow-y: scroll;
     z-index: 5;
     border-radius: 20px;
+}
+
+.overlay article p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    line-height: 25px;
 }
 
 .hidden {
@@ -106,7 +112,7 @@ h1 {
     top: 100px;
     left: 280px;
     width: 400px;
-    transform: rotate(-7deg);
+    transform: rotate(-5deg);
     z-index: 1;
     transition: transform .5s;
 }
@@ -149,13 +155,13 @@ h1 {
 }
 
 a {
-    font-family: 'Shippori Mincho B1', serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover, a:visited:hover {
@@ -167,7 +173,7 @@ footer {
     margin: auto;
     padding-bottom: 25px;
     position: absolute;
-    top: 600px;
+    top: 550px;
 }
 
 footer > a {
