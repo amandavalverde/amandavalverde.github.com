@@ -88,3 +88,11 @@ small {
     display: flex;
     justify-content: space-between;
 }
+
+#page {
+    width: 575px;
+}
+
+#overlay {
+    width: 575px;
+}

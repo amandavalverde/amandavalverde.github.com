@@ -18,8 +18,21 @@
             <article>
                 <img id="page" src="https://amandavalverde.github.io/des157/final/screenshotpage.png" alt="Screen shot of User Test page">
                 <img id="overlay" src="https://amandavalverde.github.io/des157/final/screenshotoverlay.png" alt="Screen shot of User Test page with overlay">
+                
                 <h2>Observations</h2>
+                <h3>Images</h3>
                     <p>Each of the users who provided feedback noted that my linked images should have some visible feedback when they hover over them. While the cursor changes when hovering over links, occasionally it gets lost within the details of the image and does not give the user any indication the photos are active elements of the page. Most suggestions included some type of animation involving scaling, shadow, or highlight.</p>
+                    <p>Users also noted that images took some time to load. As soon as they mentioned the delay I realized I had forgotten to optimize the images and keep them below 200kb. The original images are quite large, so it comes as no surprise that downloading takes time after having saved them at maximum resolution.</p>
+
+                <h3>Overlays</h3>
+                    <p>The overlays presented a few problems for users, namely complications involving the z-index property that was necessary to give the featured photographs a stacked effect. The overlay animations seemed to move through each established plane of the page instead of fading in over all of the content. Users also found a close button unnecessary with the ubiquitous close button I already included in the top right corner. As of now the overlay is also quite large for some of the descriptions, which means that I will either have to resize them or fill them with more details. I think it would be useful to explore more styling options for my overlays before I submit the final.</p>
+            
+                <h3>Typography & Readability</h3>
+                    <p>While related to issues presented in the overlays, the typography on my page was difficult to read at times given the default line height. Users also requested some padding so that my copy did not reside so close to the edges of the overlays, which would also improve readability (maximum paragraph width). I intended to vary the typography on the page with both sans serif and serif typefaces, but have not yet made those changes. The general consensus was that some variation would create more visual interest and define the headings more effectively. My text could also have better contrast, especially the white text on the light blue background which contains texture and sporadic highlights.</p>
+                
+                <h2>Prototype Modification</h2>
+                    <p>I was very grateful for the user testing because those who gave feedback were transparent but displomatic in their critiques. Some observations reiterated suspected pain points in my design, namely those that involved providing feedback for enhanced usability and being more strategic with typographical decisions. As of now I have updated the styling to scale and shift images when they are being hovered over. I was also able to rectify the overlay animation issues we encountered during testing; they now animate and display from the highest plane of the page, which makes everything run much more smoothly.</p>
+                    <p>Over the next few days I will continue to add images, adjust styling for my typography, and write the JavaScript for the horizontal scroll effect. I am a tad nervous about creating a hovering navigation bar that will travel with the scroll, but hopefully I can get additional help with those final details during office hours/scheduled meetings.</p>
             </article>
         </div>
     </main>
