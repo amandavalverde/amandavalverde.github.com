@@ -5,10 +5,10 @@
     function myFunction() {
         var txt;
         var person = prompt("Please enter your name:", "Tester Name");
-        if (person == null || person == "") {
-          txt = "Please refresh and enter your name into the prompt.";
+        if (person == null || person == "" || person == "Tester Name") {
+          txt = "Please refresh and enter your name into the prompt to continue user testing.";
         } else {
-          txt = `Hello ${person}! Please consider these three questions: How intuitive is the design of this prototype? Does the overlay styling enhance or inhibit the experience (legibility, palette, dimensions)? Do you feel a sense of narrative or a general theme?`;
+          txt = `Hello ${person}! Please complete these tasks: 1. Explore the interface; 2. Follow links or active images; 3. Examine elements that present themselves; 4. Find at least two ways to close overlays`;
         }
         document.getElementById("usertest").innerHTML = txt;
       }
