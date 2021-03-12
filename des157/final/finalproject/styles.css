@@ -44,6 +44,28 @@ h1 {
     border-radius: 20px;
 }
 
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+    height: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}
+
 .overlay article p {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
