@@ -57,7 +57,7 @@ h1 {
 }
 
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
-    height: 80px;
+    height: 20px;
     margin-bottom: 20px;
     width: 100%;
     -webkit-overflow-scrolling: touch;
