@@ -152,8 +152,8 @@ h1 {
 #five {
     position: absolute;
     top: 75px;
-    left: 500px;
-    width: 400px;
+    left: 60px;
+    width: 300px;
     transform: rotate(3deg);
     z-index: 0;
     transition: transform .5s;
