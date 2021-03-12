@@ -3,7 +3,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin: 50px;
+    margin: 25px;
     color: white;
     font-family: 'Shippori Mincho B1', serif;
 }
@@ -151,11 +151,11 @@ h1 {
 
 #five {
     position: absolute;
-    top: 75px;
-    left: 60px;
+    top: 50px;
+    left: 600px;
     width: 300px;
     transform: rotate(3deg);
-    z-index: 0;
+    z-index: -1;
     transition: transform .5s;
 }
 
