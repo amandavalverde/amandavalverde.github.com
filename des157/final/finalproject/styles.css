@@ -12,7 +12,7 @@ h1 {
     font-size: 5em;
     font-weight: 800;
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 25;
 }
 
 .overlay {
@@ -57,7 +57,7 @@ h1 {
 }
 
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
-    height: 20px;
+    height: 250px;
     margin-bottom: 20px;
     width: 100%;
     -webkit-overflow-scrolling: touch;
@@ -149,6 +149,16 @@ h1 {
     transition: transform .5s;
 }
 
+#five {
+    position: absolute;
+    top: 75px;
+    left: 500px;
+    width: 400px;
+    transform: rotate(3deg);
+    z-index: 0;
+    transition: transform .5s;
+}
+
 #one:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -170,6 +180,13 @@ h1 {
 }
 
 #four:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    z-index: 4;
+}
+
+#five:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
