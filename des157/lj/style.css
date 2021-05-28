@@ -71,14 +71,14 @@ p {
 
 #parents {
     width: 500px;
-    filter: drop-shadow(10px 10px 8px #000000);
-    padding: 25px;
+    filter: drop-shadow(0 0 0.75rem black);
+    padding-bottom: 15px;
 }
 
 #cookies {
     width: 500px;
-    filter: drop-shadow(10px 10px 8px #000000);
-    padding: 25px;
+    filter: drop-shadow(0 0 0.75rem black);
+    padding-bottom: 15px;
 }
 
 a {
