@@ -81,6 +81,11 @@ p {
     padding-bottom: 15px;
 }
 
+figcaption {
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
 a {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
