@@ -71,10 +71,12 @@ p {
 
 #parents {
     width: 500px;
+    filter: drop-shadow(10px 10px 8px #000000);
 }
 
 #cookies {
     width: 500px;
+    filter: drop-shadow(10px 10px 8px #000000);
 }
 
 a {

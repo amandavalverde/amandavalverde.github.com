@@ -50,21 +50,32 @@ h1 {
     white-space: nowrap;
 }
 
+    .photo {
+        display: inline-block;
+      }
+
 .scrolling-wrapper-flexbox {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
 
+    .photo {
+        flex: 0 0 auto;
+        margin-right: 3px;
+      }
+
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
     height: 250px;
     margin-bottom: 20px;
     width: 100%;
     -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
+}
+    
+&::-webkit-scrollbar {
       display: none;
     }
-}
+
 
 .overlay article p {
     font-family: 'Poppins', sans-serif;
